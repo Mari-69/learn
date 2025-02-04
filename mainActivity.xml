@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Learn Access"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/startLearningButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Learning"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/viewTutorsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meet the Tutors"
+        android:layout_below="@id/startLearningButton"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/chatbotButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat with AI"
+        android:layout_below="@id/viewTutorsButton"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
