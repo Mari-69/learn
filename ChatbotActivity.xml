@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/chatbotText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat with our AI"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/chatInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your question..."
+        android:layout_below="@id/chatbotText"
+        android:layout_marginTop="20dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_below="@id/chatInput"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/chatbotResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI Response will appear here"
+        android:textSize="18sp"
+        android:layout_below="@id/sendButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
